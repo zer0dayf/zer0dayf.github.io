@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  {% include head.html %}
+  <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png" type="image/x-icon">
+ </head>
+ <body>
+
+
+  {{ content }}
+  {% include js-link.html %}
+  {% include icon-dir.html %}
+
+<!-- Professional Summary Section -->
+{% if site.summary.value %}
+<section id="summary">
+  <h2>{{ site.summary.title }}</h2>
+  <p>{{ site.summary.index }}</p>
+</section>
+{% endif %}
+
+<!-- Experience Section -->
+{% if site.experience.value %}
+<section id="experience">
+  <h2>{{ site.experience.title }}</h2>
+  <ul>
+    {% for job in site.experience.info %}
+    <li>
+      <h3>{{ job.role }} at {{ job.company }}</h3>
+      <p>{{ job.time }}</p>
+      <p>{{ job.details }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- Education Section -->
+{% if site.education.value %}
+<section id="education">
+  <h2>{{ site.education.title }}</h2>
+  <ul>
+    {% for degree in site.education.info %}
+    <li>
+      <h3>{{ degree.degree }} from {{ degree.university }}</h3>
+      <p>{{ degree.time }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- Projects Section -->
+{% if site.projects.value %}
+<section id="projects">
+  <h2>{{ site.projects.title }}</h2>
+  <ul>
+    {% for project in site.projects.info %}
+    <li>
+      <h3>{{ project.project_name }}</h3>
+      <p>{{ project.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- Certifications Section -->
+{% if site.certifications.value %}
+<section id="certifications">
+  <h2>{{ site.certifications.title }}</h2>
+  <ul>
+    {% for cert in site.certifications.list %}
+    <li>
+      <h3>{{ cert.cert_name }} by {{ cert.organization }}</h3>
+      <p>{{ cert.details }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- Skills Section -->
+{% if site.skills.value %}
+<section id="skills">
+  <h2>{{ site.skills.title }}</h2>
+  <ul>
+    {% for skill in site.skills.proficiencies %}
+    <li>{{ skill.name }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- Languages Section -->
+{% if site.languages.value %}
+<section id="languages">
+  <h2>{{ site.languages.title }}</h2>
+  <ul>
+    {% for language in site.languages.info %}
+    <li>{{ language.lang }} - {{ language.level }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- References Section -->
+{% if site.references.value %}
+<section id="references">
+  <h2>{{ site.references.title }}</h2>
+  <ul>
+    {% for reference in site.references.info %}
+    <li>
+      <p>{{ reference.ref_name }} - {{ reference.ref_relation }}</p>
+      <p>Email: <a href="mailto:{{ reference.ref_mail }}">{{ reference.ref_mail }}</a></p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- Interests Section -->
+{% if site.interests.value %}
+<section id="interests">
+  <h2>{{ site.interests.title }}</h2>
+  <ul>
+    {% for interest in site.interests.info %}
+    <li>
+      <h3>{{ interest.name }}</h3>
+      <p>{{ interest.details }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- Additional Sections -->
+{% if site.additional1.value %}
+<section id="additional1">
+  <h2>{{ site.additional1.title }}</h2>
+  <ul>
+    {% for item in site.additional1.info %}
+    <li>
+      <h3>{{ item.name }}</h3>
+      <p>{{ item.details }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+
+{% if site.additional2.value %}
+<section id="additional2">
+  <h2>{{ site.additional2.title }}</h2>
+  <ul>
+    {% for item in site.additional2.info %}
+    <li>
+      <h3>{{ item.name }}</h3>
+      <p>{{ item.details }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<footer>
+  <footer>
+    <!-- You can remove this part if it's your live resume or you are uncomfortable with that, its not problem at all :)) -->
+  <p class="credits">Made by <a href="https://github.com/zer0dayf">@zer0dayf</a>. Fork me on <a href="https://github.com/zer0dayf/jekyll_simple_resume_template">GitHub</a>.</p>
+</footer>
+
+ </body>
+</html>

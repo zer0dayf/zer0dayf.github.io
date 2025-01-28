@@ -1,0 +1,55 @@
+<ul class="icon-links">
+  {% if site.email_usr %}
+    <li class="icon-link-item">
+      <a href="mailto:{{ site.email_usr }}" class="icon-link" itemprop="sameAs">
+        <img src="{{ site.baseurl }}/assets/images/icons/icon-email.svg" alt="Email">
+      </a>
+    </li>
+  {% endif %}
+  {% if site.hackerrank_usr %}
+  <li class="icon-link-item">
+    <a href="{{ site.hackerrank_usr }}" class="icon-link" itemprop="sameAs">
+      <img src="{{ site.baseurl }}/assets/images/icons/icon-hackerrank.svg" alt="Instagram">
+    </a>
+  </li>
+  {% endif %}
+  {% if site.instagram_usr %}
+  <li class="icon-link-item">
+    <a href="{{ site.instagram_usr }}" class="icon-link" itemprop="sameAs">
+      <img src="{{ site.baseurl }}/assets/images/icons/icon-instagram.svg" alt="Instagram">
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.twitter_usr %}
+  <li class="icon-link-item">
+    <a href="{{ site.twitter_usr }}" class="icon-link" itemprop="sameAs">
+      <img src="{{ site.baseurl }}/assets/images/icons/icon-twitter.svg" alt="Twitter">
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.linkedin_usr %}
+  <li class="icon-link-item">
+    <a href="{{ site.linkedin_usr }}" class="icon-link" itemprop="sameAs">
+      <img src="{{ site.baseurl }}/assets/images/icons/icon-linkedin.svg" alt="LinkedIn">
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.github_usr %}
+  <li class="icon-link-item">
+    <a href="{{ site.github_usr }}" class="icon-link" itemprop="sameAs">
+      <img src="{{ site.baseurl }}/assets/images/icons/icon-github.svg" alt="GitHub">
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.medium_usr %}
+  <li class="icon-link-item">
+    <a href="{{ site.medium_usr }}" class="icon-link" itemprop="sameAs">
+      <img src="{{ site.baseurl }}/assets/images/icons/icon-medium.svg" alt="Medium">
+    </a>
+  </li>
+  {% endif %}
+</ul>

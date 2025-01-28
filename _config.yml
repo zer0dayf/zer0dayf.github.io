@@ -1,0 +1,156 @@
+#This is a simple, customizable and modern Jekyll resume template. Feel free to change it and use it!
+
+# Personal Informations
+
+show_avatar: true              #Make it true if you want to make your picture visible
+name: John Doe       #It's your name
+role: John Doe's role          #It's your role
+email: johndoe@example.com     #It's your mail adress
+baseurl: ""                    #Base url setted as / as default
+url: ""                        # The base hostname & protocol for your site, e.g., http://example.com
+
+# Sections
+# Set the values to true for the sections you want to be visible on your site.
+
+summary:
+  value: true
+  title: Professional Summary
+  index: I am John Doe and that's all  #That's a professional summary
+
+experience:
+  value: true
+  title: Experiences
+  info:
+    - role: John Doe being John Doe        #You can add multiple roles by copying the first one; it will work.
+      time: 2015 - Now
+      company: John Doe LLC.
+      details: I am John Doe at John Doe LLC.
+    - role: Dohn Joe being Dohn Joe
+      time: 1990 - 2000
+      company: Dohn Joe LLC.
+      details: I was Dohn Joe at Dohn Joe LLC in the past days.
+
+education:
+  value: true
+  title: Education
+  info:
+    - degree: MSc in John Doe          #You can add multiple educational qualifications similarly.
+      university: John Doe University
+      time: 2020 - 2024
+    - degree: BSc in Dohn Joe
+      university: Dohn Joe University
+      time: 2020 - 2022
+
+projects:
+  value: true
+  title: Projects
+  info:
+    - project_name: John's Project          #You can add multiple  projects similarly.
+      description: This template is awesome.
+    - project_name: Doe's Project
+      description: This template is also awesome.
+
+certifications:
+  value: true
+  title: Certifications
+  list:
+    - cert_name: John's Awesome Certificate       #You can add several certificates, and they will be displayed as "cert_name by organization" on your site.
+      organization: John Doe LLC.
+      details: John being John.
+    - cert_name: Doe's Very Bad Certificate
+      organization: Dohn Joe LLC.
+      details: Dohn being Dohn.
+
+skills:
+  value: true
+  title: Proficiency & Skills
+  proficiencies:
+    - name: Python                            #They are displayed as an ordered list, similar to bullet points.
+    - name: JavaScript
+    - name: JohnDoe
+    - name: DohnJoe
+    - name: NoSkill
+
+languages:
+  value: true
+  title: Languages
+  info:
+    - lang: John's Language                 #They will be displayed as "John's Language - Native"
+      level: Native
+    - lang: English
+      level: Professional
+
+references:
+  value: true
+  title: References
+  info:
+    - ref_name: Dohn Joe
+      ref_relation: Professor of John Doe
+      ref_mail: dohnjoe@example.com        #The mails are clickable and anyone can send the mail to referances directly
+    - ref_name: John Doe
+      ref_relation: Literally John Doe
+      ref_mail: johndoe@example.com
+
+interests:
+  value: true
+  title: Interests
+  info:
+    - name: Reading Sci-Fi Novels
+      details: Especially books about time travel and space exploration.
+    - name: Hiking
+      details: Exploring new trails and connecting with nature.
+    - name: Technology
+      details: Passionate about new gadgets, AI, and emerging tech trends.
+
+additional1:
+  value: true
+  title: Additional Section 1                      #This is the additonal section you can add your section which holds 2 informations.
+  info:
+    - name: Custom Info 1
+      details: User-defined details here.
+    - name: Custom Info 2
+      details: Add more personalized content.
+
+additional2:
+  value: true
+  title: Additional Section 2                     #This is also an additional section you can add your section which holds 4 informations like year,organization etc.
+  info:
+    - name: Award/Recognition Name
+      organization: Organization Name
+      year: 2023
+      details: Detailed description of the achievement.
+    - name: Award/Recognition Name 2
+      organization: Another Organization Name
+      year: 2019
+      details: Additional details about this recognition.
+
+# Social Links
+# If you leave the links empty the logo will not be shown in your site
+
+instagram_usr: https://www.instagram.com/yourusername  # Your Instagram account
+twitter_usr: https://twitter.com/yourusername  # Your Twitter account
+linkedin_usr: https://www.linkedin.com/in/yourusername  # Your LinkedIn account
+github_usr: https://github.com/yourusername  # Your GitHub account
+medium_usr: https://medium.com/@yourusername  # Your Medium account
+hackerrank_usr: https://www.hackerrank.com/yourusername  # Your HackerRank account
+email_usr: yourname@example.com  # Your email can be reached through your avatar but if you want to provide a different mail or provide it as a logo, write it here.
+
+
+# You can change your avatar in _site\assets\img\your_pic.png and you can change your background in _site\assets\img\your_background.jpg
+
+# Build settings
+permalink: pretty
+markdown: kramdown
+
+gems:
+  - jekyll-feed
+  - jekyll-autoprefixer
+
+include:
+  - assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  sass_dir: _sass
