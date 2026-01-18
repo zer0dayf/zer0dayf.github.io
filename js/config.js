@@ -16,7 +16,7 @@ const CONFIG = {
         profileImage: "assets/images/profile.png",
         social: {
             github: "https://github.com/zer0dayf",
-            linkedin: "https://linkedin.com/in/onerefegungor",
+            linkedin: "https://linkedin.com/in/oner-efe-gungor",
         }
     },
 
