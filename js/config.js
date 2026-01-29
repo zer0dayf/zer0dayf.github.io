@@ -157,10 +157,10 @@ const CONFIG = {
         {
             title: "Blue Team Junior Analyst (BTJA)",
             issuer: "Security Blue Team (SBT)",
-            date: "2065",
+            date: "2026",
             description: "Technical Competencies: OSINT, Digital Forensics, Vulnerability Management, Dark Web Ops, Threat Hunting, and Network Analysis",
             icon: "fas fa-shield-alt",
-            iconClass: "SBT",
+            iconClass: "sbt",
             certId: "996703893"
         },
         {
