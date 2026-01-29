@@ -155,6 +155,15 @@ const CONFIG = {
     // ===== CERTIFICATIONS =====
     certifications: [
         {
+            title: "Blue Team Junior Analyst (BTJA)",
+            issuer: "Security Blue Team (SBT)",
+            date: "2065",
+            description: "Technical Competencies: OSINT, Digital Forensics, Vulnerability Management, Dark Web Ops, Threat Hunting, and Network Analysis",
+            icon: "fas fa-shield-alt",
+            iconClass: "SBT",
+            certId: "996703893"
+        },
+        {
             title: "Foundations of Cybersecurity",
             issuer: "Google (Coursera)",
             date: "2025",
