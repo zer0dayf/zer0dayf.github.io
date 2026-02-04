@@ -92,7 +92,7 @@ const CONFIG = {
             description: "Trained a YOLO-based computer vision model to detect and classify playing cards. Developed an application to integrate the model for real-world usage, with the name "AceTrack-AI" and as open-source on GitHub.",
             icon: "fas fa-eye",
             tags: ["Computer Vision", "YOLO", "Machine Learning", "Python"],
-            github: "https://github.com/zer0dayf/AceTrack-AI"
+            github: "https://github.com/zer0dayf/AceTrack-AI",
             featured: true,
             featuredLabel: "Most Current"
         },
