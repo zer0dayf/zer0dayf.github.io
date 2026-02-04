@@ -89,16 +89,17 @@ const CONFIG = {
         {
             title: "YOLO-Based Playing Card Recognition",
             date: "2025 - Present",
-            description: "Trained a YOLO-based computer vision model to detect and classify playing cards. Currently developing an application to integrate the model for real-world usage, with plans to publish as open-source on GitHub.",
+            description: "Trained a YOLO-based computer vision model to detect and classify playing cards. Developed an application to integrate the model for real-world usage, with the name "AceTrack-AI" and as open-source on GitHub.",
             icon: "fas fa-eye",
             tags: ["Computer Vision", "YOLO", "Machine Learning", "Python"],
+            github: "https://github.com/zer0dayf/AceTrack-AI"
             featured: true,
             featuredLabel: "Most Current"
         },
 
         {
             title: "BIST-KAP Dataset Builder",
-            date: "2026",  // ya da tam yıl/bilgi varsa değiştir, şu an tahmini koydum
+            date: "2026",
             description: "Automated tool that builds labeled NLP datasets by matching Borsa İstanbul (BIST) companies' KAP announcements with their T+5 stock price movements. Designed for training financial language models such as FinBERT, with focus on efficient data preprocessing using Python, Pandas, and yfinance.",
             icon: "fas fa-chart-line",
             tags: ["Python", "NLP", "Finance", "Pandas", "yfinance", "Dataset"],
