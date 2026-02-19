@@ -241,17 +241,16 @@ const CONFIG = {
     // ===== SKILLS (Simple list - no progress bars) =====
     skills: {
         technical: [
-            { name: "Python – Scripting, automation, computer vision (YOLO), data processing", icon: "fab fa-python" },
-            { name: "Linux (Kali/Ubuntu) – Command-line, system hardening, forensics basics", icon: "fab fa-linux" },
-            { name: "Cybersecurity Fundamentals", icon: "fas fa-shield-alt" },
+            { name: "Python: Scripting, automation, computer vision, data processing", icon: "fab fa-python" },
+            { name: "Linux: CLI, system hardening, forensics basics", icon: "fab fa-linux" },
             { name: "Networking – TCP/IP, packet analysis with Wireshark, scanning with Nmap", icon: "fas fa-network-wired" }
         ],
         tools: [
-            { name: "Vulnerability Assessment – OpenVAS/Nessus basics, manual enumeration", icon: "fas fa-bug" },
-            { name: "Risk Assessment – Qualitative analysis, vulnerability reporting", icon: "fas fa-exclamation-triangle" },
-            { name: "Security Tools – tcpdump, Volatility, BadUSB payloads (research)", icon: "fas fa-tools" },
-            { name: "Penetration Testing – Burp Suite, Metasploit modules, OWASP Top 10", icon: "fas fa-user-secret" },
-            { name: "Incident Analysis – Log review, alert triage, basic DFIR concepts", icon: "fas fa-search" }
+            { name: "Vulnerability Assessment: OpenVAS/Nessus basics, manual enumeration", icon: "fas fa-bug" },
+            { name: "Risk Assessment: Qualitative analysis, vulnerability reporting", icon: "fas fa-exclamation-triangle" },
+            { name: "Security Tools: tcpdump, Volatility, BadUSB", icon: "fas fa-tools" },
+            { name: "Penetration Testing: Burp Suite, ZAP, OWASP(Top10)", icon: "fas fa-user-secret" },
+            { name: "Incident Analysis: Log review, basic DFIR concepts", icon: "fas fa-search" }
         ]
     },
 
