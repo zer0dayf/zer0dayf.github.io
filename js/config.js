@@ -28,7 +28,7 @@ const CONFIG = {
         ],
         stats: [
             { number: "7+", label: "Projects" },
-            { number: "5+", label: "Certifications" },
+            { number: "10+", label: "Certifications" },
             { number: "3", label: "Degrees" }
         ]
     },
@@ -193,7 +193,7 @@ const CONFIG = {
             issuer: "BTK Academy",
             date: "2026",
             description: "UAV fundamentals, flight principles, airspace regulations, and drone system components.",
-            icon: "fas fa-drone",
+            icon: "fas fa-jet-fighter-up",
             iconClass: "btk"
         },
         {
@@ -298,10 +298,10 @@ const CONFIG = {
             description: "Participated in national career and competency development events under the National Competency Initiative."
         },
         {
-            title: "SGHM UAV-0 / UAV-1 Individual Sportive Pilot License",
+            title: "UAV-0 / UAV-1 Individual Sportive Pilot License",
             issuer: "General Directorate of Civil Aviation (SGHM)",
             date: "2026",
-            icon: "fas fa-drone",
+            icon: "fas fa-jet-fighter-up",
             description: "Licensed UAV-0 and UAV-1 pilot authorized for individual sportive drone operations in compliance with national aviation regulations."
         },
         {
