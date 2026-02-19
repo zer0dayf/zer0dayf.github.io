@@ -243,7 +243,7 @@ const CONFIG = {
         technical: [
             { name: "Python: Scripting, automation, computer vision, data processing", icon: "fab fa-python" },
             { name: "Linux: CLI, system hardening, forensics basics", icon: "fab fa-linux" },
-            { name: "Networking – TCP/IP, packet analysis with Wireshark, scanning with Nmap", icon: "fas fa-network-wired" }
+            { name: "Networking: TCP/IP, packet analysis with Wireshark, scanning with Nmap", icon: "fas fa-network-wired" }
         ],
         tools: [
             { name: "Vulnerability Assessment: OpenVAS/Nessus basics, manual enumeration", icon: "fas fa-bug" },
