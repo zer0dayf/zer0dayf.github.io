@@ -163,13 +163,13 @@ const CONFIG = {
             certId: "996703893"
         },
         {
-            title: "Foundations of Cybersecurity",
+            title: "Google Cybersecurity Professional Certificate",
             issuer: "Google (Coursera)",
-            date: "2025",
-            description: "Cybersecurity fundamentals, security principles, risk management, and threat awareness.",
+            date: "2026",
+            description: "Cybersecurity fundamentals, risk management, SIEM & IDS tools, Linux, SQL, and Python for security operations.",
             icon: "fab fa-google",
             iconClass: "google",
-            certId: "RBZAXM8XRVIS"
+            certId: "64NU1OYV9S0U"
         },
         {
             title: "Intermediate Applied Cybersecurity",
@@ -187,6 +187,38 @@ const CONFIG = {
             description: "Penetration testing fundamentals, network exploitation, web application security.",
             icon: "fas fa-user-secret",
             iconClass: "tryhackme"
+        },
+        {
+            title: "Introduction to Unmanned Aerial Vehicles (UAV)",
+            issuer: "BTK Academy",
+            date: "2026",
+            description: "UAV fundamentals, flight principles, airspace regulations, and drone system components.",
+            icon: "fas fa-drone",
+            iconClass: "btk"
+        },
+        {
+            title: "Mobile App Development with Artificial Intelligence",
+            issuer: "BTK Academy",
+            date: "2026",
+            description: "AI-powered mobile application development, machine learning integration, and model deployment.",
+            icon: "fas fa-robot",
+            iconClass: "btk"
+        },
+        {
+            title: "Database Architectures in Big Data",
+            issuer: "BTK Academy",
+            date: "2026",
+            description: "Big data ecosystems, distributed databases, data modeling, and scalable architecture design.",
+            icon: "fas fa-database",
+            iconClass: "btk"
+        },
+        {
+            title: "Animation Production with Adobe Animate",
+            issuer: "BTK Academy",
+            date: "2026",
+            description: "2D animation production, motion graphics principles, and interactive media design using Adobe Animate.",
+            icon: "fas fa-film",
+            iconClass: "btk"
         },
         {
             title: "Digital Chip Design Fundamentals",
@@ -264,6 +296,13 @@ const CONFIG = {
             date: "2024",
             icon: "fas fa-fighter-jet",
             description: "Participated in national career and competency development events under the National Competency Initiative."
+        },
+        {
+            title: "SGHM UAV-0 / UAV-1 Individual Sportive Pilot License",
+            issuer: "General Directorate of Civil Aviation (SGHM)",
+            date: "2026",
+            icon: "fas fa-drone",
+            description: "Licensed UAV-0 and UAV-1 pilot authorized for individual sportive drone operations in compliance with national aviation regulations."
         },
         {
             title: "ServSafe Alcohol Certification",
