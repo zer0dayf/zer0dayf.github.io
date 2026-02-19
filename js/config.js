@@ -40,7 +40,7 @@ const CONFIG = {
             company: "Paulmark",
             date: "2025",
             icon: "fas fa-shield-halved",
-            description: "Completed an internship as a Cybersecurity Analyst, gaining hands-on experience in <strong>security monitoring</strong>, <strong>vulnerability analysis</strong>, and basic risk assessment. Assisted in identifying potential security issues and supported defensive security practices within organizational systems.",
+            description: "Completed an internship as a Cybersecurity Analyst, gaining hands-on experience in <strong>security monitoring</strong>, <strong>vulnerability analysis</strong>, and basic risk assessment. Identified and reported 12+ potential vulnerabilities across internal systems and network segments.",
             tags: ["Security Monitoring", "Vulnerability Analysis", "Risk Assessment"]
         },
         {
@@ -89,7 +89,7 @@ const CONFIG = {
         {
             title: "YOLO-Based Playing Card Recognition",
             date: "2025 - Present",
-            description: "Trained a YOLO-based computer vision model to detect and classify playing cards. Developed an application to integrate the model for real-world usage, with the name 'AceTrack-AI' and published as open-source on GitHub.",
+            description: "Trained a YOLO-based computer vision model to detect and classify playing cards. Achieved mAP@0.5 of 0.92 across 52 standard card classes. Developed an application to integrate the model for real-world usage, with the name 'AceTrack-AI' and published as open-source on GitHub.",
             icon: "fas fa-eye",
             tags: ["Computer Vision", "YOLO", "Machine Learning", "Python"],
             github: "https://github.com/zer0dayf/AceTrack-AI"
@@ -124,7 +124,7 @@ const CONFIG = {
         {
             title: "Neon Runner: Project 2084",
             date: "2025 - Present",
-            description: "Developing a retro-futuristic platformer mobile game using modern game development tools. Responsible for game design, implementation, and deployment with planned release on Google Play Store.",
+            description: "Developing a retro-futuristic platformer mobile game using modern game development tools. Conducted closed beta testing with 12 participants, achieving average play session of 10+ minutes and 4/5 feedback rating. Responsible for game design, implementation, and deployment with planned release on Google Play Store.",
             icon: "fas fa-gamepad",
             iconClass: "game",
             tags: ["Game Dev", "Mobile", "Unity"]
@@ -241,18 +241,17 @@ const CONFIG = {
     // ===== SKILLS (Simple list - no progress bars) =====
     skills: {
         technical: [
-            { name: "Python", icon: "fab fa-python" },
-            { name: "Linux Systems", icon: "fab fa-linux" },
+            { name: "Python – Scripting, automation, computer vision (YOLO), data processing", icon: "fab fa-python" },
+            { name: "Linux (Kali/Ubuntu) – Command-line, system hardening, forensics basics", icon: "fab fa-linux" },
             { name: "Cybersecurity Fundamentals", icon: "fas fa-shield-alt" },
-            { name: "Network Fundamentals", icon: "fas fa-network-wired" },
-            { name: "Information Systems", icon: "fas fa-database" }
+            { name: "Networking – TCP/IP, packet analysis with Wireshark, scanning with Nmap", icon: "fas fa-network-wired" }
         ],
         tools: [
-            { name: "Vulnerability Assessment", icon: "fas fa-bug" },
-            { name: "Risk Assessment", icon: "fas fa-exclamation-triangle" },
-            { name: "Security Tools", icon: "fas fa-tools" },
-            { name: "Penetration Testing", icon: "fas fa-user-secret" },
-            { name: "Incident Analysis", icon: "fas fa-search" }
+            { name: "Vulnerability Assessment – OpenVAS/Nessus basics, manual enumeration", icon: "fas fa-bug" },
+            { name: "Risk Assessment – Qualitative analysis, vulnerability reporting", icon: "fas fa-exclamation-triangle" },
+            { name: "Security Tools – tcpdump, Volatility, BadUSB payloads (research)", icon: "fas fa-tools" },
+            { name: "Penetration Testing – Burp Suite, Metasploit modules, OWASP Top 10", icon: "fas fa-user-secret" },
+            { name: "Incident Analysis – Log review, alert triage, basic DFIR concepts", icon: "fas fa-search" }
         ]
     },
 
