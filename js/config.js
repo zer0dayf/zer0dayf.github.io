@@ -241,16 +241,16 @@ const CONFIG = {
     // ===== SKILLS (Simple list - no progress bars) =====
     skills: {
         technical: [
-            { name: "Python: Scripting, automation, computer vision, data processing", icon: "fab fa-python" },
-            { name: "Linux: CLI, system hardening, forensics basics", icon: "fab fa-linux" },
-            { name: "Networking: TCP/IP, packet analysis with Wireshark, scanning with Nmap", icon: "fas fa-network-wired" }
+            { name: "<strong>Python:</strong> Scripting, automation, computer vision, data processing", icon: "fab fa-python" },
+            { name: "<strong>Linux:</strong> CLI, system hardening, forensics basics", icon: "fab fa-linux" },
+            { name: "<strong>Networking:</strong> TCP/IP, packet analysis with Wireshark, scanning with Nmap", icon: "fas fa-network-wired" }
         ],
         tools: [
-            { name: "Vulnerability Assessment: OpenVAS/Nessus basics, manual enumeration", icon: "fas fa-bug" },
-            { name: "Risk Assessment: Qualitative analysis, vulnerability reporting", icon: "fas fa-exclamation-triangle" },
-            { name: "Security Tools: tcpdump, Volatility, BadUSB", icon: "fas fa-tools" },
-            { name: "Penetration Testing: Burp Suite, ZAP, OWASP(Top10)", icon: "fas fa-user-secret" },
-            { name: "Incident Analysis: Log review, basic DFIR concepts", icon: "fas fa-search" }
+            { name: "<strong>Vulnerability Assessment:</strong> OpenVAS/Nessus basics, manual enumeration", icon: "fas fa-bug" },
+            { name: "<strong>Risk Assessment:</strong> Qualitative analysis, vulnerability reporting", icon: "fas fa-exclamation-triangle" },
+            { name: "<strong>Security Tools:</strong> tcpdump, Volatility, BadUSB", icon: "fas fa-tools" },
+            { name: "<strong>Penetration Testing:</strong> Burp Suite, ZAP, OWASP(Top10)", icon: "fas fa-user-secret" },
+            { name: "<strong>Incident Analysis:</strong> Log review, basic DFIR concepts", icon: "fas fa-search" }
         ]
     },
 
