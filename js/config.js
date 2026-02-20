@@ -172,6 +172,15 @@ const CONFIG = {
             certId: "64NU1OYV9S0U"
         },
         {
+            title: "IBM Cybersecurity Analyst Professional Certificate",
+            issuer: "IBM (Coursera)",
+            date: "2026",
+            description: "Advanced threat detection,endpoint protection, incident response, digital forensics, penetration testing, network & OS security, database vulnerabilities, threat intelligence, compliance frameworks.",
+            icon: "fab fa-ibm",
+            iconClass: "ibm",
+            certId: "6OTLQ7W64ZRJ"
+        },
+        {
             title: "Intermediate Applied Cybersecurity",
             issuer: "BTK Academy & USOM",
             date: "2024",
