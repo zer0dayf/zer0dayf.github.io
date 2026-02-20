@@ -176,7 +176,7 @@ const CONFIG = {
             issuer: "IBM (Coursera)",
             date: "2026",
             description: "Advanced threat detection,endpoint protection, incident response, digital forensics, penetration testing, network & OS security, database vulnerabilities, threat intelligence, compliance frameworks.",
-            icon: "fas fa-cloud",
+            icon: "fa-solid fa-terminal",
             iconClass: "ibm",
             certId: "6OTLQ7W64ZRJ"
         },
