@@ -28,7 +28,7 @@ const CONFIG = {
         ],
         stats: [
             { number: "7+", label: "Projects" },
-            { number: "10+", label: "Certifications" },
+            { number: "11+", label: "Certifications" },
             { number: "3", label: "Degrees" }
         ]
     },
