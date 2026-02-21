@@ -28,7 +28,7 @@ const CONFIG = {
         ],
         stats: [
             { number: "7+", label: "Projects" },
-            { number: "11+", label: "Certifications" },
+            { number: "14+", label: "Certifications" },
             { number: "3", label: "Degrees" }
         ]
     },
@@ -164,7 +164,7 @@ const CONFIG = {
         },
         {
             title: "Google Cybersecurity Professional Certificate",
-            issuer: "Google (Coursera)",
+            issuer: "Google",
             date: "2026",
             description: "Cybersecurity fundamentals, risk management, SIEM & IDS tools, Linux, SQL, and Python for security operations.",
             icon: "fab fa-google",
@@ -173,12 +173,39 @@ const CONFIG = {
         },
         {
             title: "IBM Cybersecurity Analyst Professional Certificate",
-            issuer: "IBM (Coursera)",
+            issuer: "IBM",
             date: "2026",
             description: "Advanced threat detection,endpoint protection, incident response, digital forensics, penetration testing, network & OS security, database vulnerabilities, threat intelligence, compliance frameworks.",
             icon: "fas fa-terminal",
             iconClass: "ibm",
             certId: "6OTLQ7W64ZRJ"
+        },
+        {
+            title: "Cybersecurity Operations Fundamentals",
+            issuer: "Cisco",
+            date: "2026",
+            description: "This Specialization teaches learners the fundamental skills, techniques, and technologies to detect and prevent cyber attacks as part of a SOC team and as an entry-level SOC Analyst.",
+            icon: "fas fa-redhat",
+            iconClass: "cisco",
+            certId: "WG1Z5GDQ79IP"
+        },
+        {
+            title: "Network Fundamentals",
+            issuer: "Cisco",
+            date: "2026",
+            description: "This Specialization builds a strong foundation in key networking concepts and architectures for modern IT roles. Learners will explore topics such as network segmentation, routing policies, access-lists, and traffic forwarding.",
+            icon: "fas fa-network-wired",
+            iconClass: "cisco",
+            certId: "H9LIJG25II8N"
+        },
+        {
+            title: "Network Automation Engineering",
+            issuer: "Cisco",
+            date: "2026",
+            description: "This Specialization serves as a well-rounded survey of topics and core skills that a network automation engineer should know to effectively deploy and operate a NetDevOps environment.",
+            icon: "fas fa-robot",
+            iconClass: "cisco",
+            certId: "ZCVJ08AUDAIA"
         },
         {
             title: "Intermediate Applied Cybersecurity",
