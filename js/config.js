@@ -185,7 +185,7 @@ const CONFIG = {
             issuer: "Cisco",
             date: "2026",
             description: "This Specialization teaches learners the fundamental skills, techniques, and technologies to detect and prevent cyber attacks as part of a SOC team and as an entry-level SOC Analyst.",
-            icon: "fas fa-redhat",
+            icon: "fa-brands fa-redhat",
             iconClass: "cisco",
             certId: "WG1Z5GDQ79IP"
         },
